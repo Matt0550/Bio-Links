@@ -336,7 +336,7 @@
         var userProfile;
 
         // Get information from gravatar:
-        fetch('https://en.gravatar.com/' + emailAddress + '.json')
+        fetch('https://gravatar.com/matt05dev.json')
             .then(response => response.json())
             .then(response => {
                 userProfile = response["entry"][0];
