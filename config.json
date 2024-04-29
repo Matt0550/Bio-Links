@@ -2,7 +2,21 @@
     "name": "Matteo Sillitti",
     "description": "Full stack developer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/38167492",
-    "email": "",
-    "socials": [],
-    "buttons": []
+    "email": "mail@matteosillitti.it",
+    "socials": [
+        {
+            "faIcon": "fab fa-github",
+            "url": "",
+            "text": "matteosillitti"
+            
+        }
+    ],
+    "buttons": [
+        {
+            "text": "Contact me",
+            "url": "a",
+            "color": "primary",
+            "icon": "fas fa-envelope"
+        }
+    ]
 }
