@@ -3,20 +3,26 @@
     "description": "Full stack developer",
     "avatarUrl": "https://avatars.githubusercontent.com/u/38167492",
     "email": "mail@matteosillitti.it",
+    "theme": "dracula",
     "socials": [
         {
             "faIcon": "fab fa-github",
             "url": "",
             "text": "matteosillitti"
-            
         }
     ],
     "buttons": [
         {
-            "text": "Contact me",
-            "url": "a",
+            "text": "My portfolio",
+            "url": "https://matteosillitti.it",
             "color": "primary",
-            "icon": "fas fa-envelope"
+            "icon": "fas fa-globe"
+        },
+        {
+            "text": "Schedule a meeting",
+            "url": "https://cal.com/matt05/meet",
+            "color": "secondary btn-outline",
+            "icon": "fas fa-calendar-alt"
         }
     ]
 }

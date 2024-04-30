@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("./config.json")
     .then((response) => response.json())
     .then((data) => {
+      // theme: set data-theme attribute to bod
+      document.body.setAttribute("data-theme", data.theme);
       document.getElementById("name").innerText = data.name;
       document.getElementById("description").innerText = data.description;
       document.getElementById("email").innerText = data.email;
