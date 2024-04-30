@@ -6,9 +6,36 @@
     "theme": "dracula",
     "socials": [
         {
+            "faIcon": "fab fa-linkedin",
+            "url": "https://www.linkedin.com/in/matteo-sillitti"
+        },
+        {
             "faIcon": "fab fa-github",
-            "url": "",
-            "text": "matteosillitti"
+            "url": "https://github.com/Matt0550"
+        },
+        {
+            "faIcon": "fab fa-twitter",
+            "url": "https://twitter.com/Matt05_dev"
+        },
+        {
+            "faIcon": "fab fa-instagram",
+            "url": "https://www.instagram.com/sillitti_matteo/"
+        },
+        {
+            "faIcon": "fab fa-reddit-alien",
+            "url": "https://www.reddit.com/user/Matt_0550"
+        },
+        {
+            "faIcon": "fab fa-spotify",
+            "url": "https://open.spotify.com/user/1laki46b2s7cgjjyh3uidthpi?si=qYMKj5OVRl-TdDAyeew2zw"
+        },
+        {
+            "faIcon": "fab fa-discord",
+            "url": "https://discord.gg/TUEKnSmWvt"
+        },
+        {
+            "faIcon": "fab fa-telegram",
+            "url": "https://t.me/Non_sono_Matteo"
         }
     ],
     "buttons": [
@@ -23,6 +50,13 @@
             "url": "https://cal.com/matt05/meet",
             "color": "secondary btn-outline",
             "icon": "fas fa-calendar-alt"
+        },
+        {
+            "text": "My LinkedIn",
+            "url": "https://www.linkedin.com/in/matteo-sillitti",
+            "color": "accent btn-outline",
+            "icon": "fab fa-linkedin"
         }
+
     ]
 }

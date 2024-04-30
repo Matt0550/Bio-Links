@@ -1,2 +1,2 @@
 # Bio-Links
-My personla bio links taken from https://github.com/mackenly/quickbiolinks/tree/master 
+My personal bio links page. Made by me, for me.
