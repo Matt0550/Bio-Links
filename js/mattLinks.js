@@ -52,9 +52,9 @@ document.addEventListener("DOMContentLoaded", function () {
           */
         
         let listItem = document.createElement("a");
-        listItem.setAttribute("href", buttons[i].url + data.email);
+        listItem.setAttribute("href", buttons[i].url);
         listItem.setAttribute("target", "_blank");
-        listItem.setAttribute("class", "btn btn-" + buttons[i].color + " w-64");
+        listItem.setAttribute("class", "btn btn-" + buttons[i].color + " w-96");
 
         let icon = document.createElement("i");
         icon.setAttribute("class", buttons[i].icon);
