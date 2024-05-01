@@ -6,10 +6,6 @@
     "theme": "dracula",
     "socials": [
         {
-            "faIcon": "fab fa-linkedin",
-            "url": "https://www.linkedin.com/in/matteo-sillitti"
-        },
-        {
             "faIcon": "fab fa-github",
             "url": "https://github.com/Matt0550"
         },

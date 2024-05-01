@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById("name").innerText = data.name;
       document.getElementById("description").innerText = data.description;
       document.getElementById("email").innerText = data.email;
-      document.getElementById("email").setAttribute("href", "mailto:" + data.email);
+      document.getElementById("email").parentElement.setAttribute("href", "mailto:" + data.email);
 
       let socials = data.socials;
       let socialsList = document.getElementById("socialList");
