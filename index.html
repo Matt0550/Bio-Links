@@ -10,9 +10,25 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5FJVSFW5');</script>
+    <!-- End Google Tag Manager -->
 </head>
 
 <body data-theme="sunset">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FJVSFW5" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    
     <!-- Page like linktree -->
     <!-- Avatar, name, icons, buttons and footer-->
     <div class="flex flex-col items-center justify-center h-screen">
@@ -24,7 +40,7 @@
             </div>
             <h1 class="text-2xl font-bold mt-4" id="name"></h1>
             <p class="text-sm text-gray-500 mt-2" id="description"></p>
-            
+
             <a href="#" class="text-sm text-gray-500 mt-2 cursor-pointer">
                 <i class="fas fa-envelope"></i>
                 <span id="email"></span>
@@ -32,12 +48,12 @@
         </div>
         <!-- Icons in a row outlined -->
         <div class="flex flex-row items-center justify-center mt-8 gap-2 flex-wrap" id="socialList">
-           
+
         </div>
 
         <!-- Buttons wide columns -->
         <div class="flex flex-col items-center justify-center mt-8 gap-y-4" id="buttonsList">
-            
+
         </div>
 
 
